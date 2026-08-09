@@ -11,6 +11,10 @@ int main(){
     int int_1=88;
     char char_1='$';
     float float_1=3.1234524247486890143;
-    printf("int_1=%d\nchar_1=%c\nfloat_1=%.20f\n",int_1,char_1,float_1);
+    double double_1=3.1234524247486890143;
+    int a=10%3;
+    int b=10%-3;
+    int d=-10%3;
+    printf("int_1=%d\nchar_1=%c\nfloat_1=%.20f\ndouble_1=%.20lf\na=%d\nb=%d\nd=%d\n",int_1,char_1,float_1,double_1,a,b,d);
     return 0;
 }
